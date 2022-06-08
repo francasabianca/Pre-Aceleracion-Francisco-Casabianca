@@ -97,7 +97,7 @@ namespace AppDisney
                     ValidAudience = "https://localhost:44323/",
                     ValidIssuer = "https://localhost:44323/",
                     IssuerSigningKey =
-                        new SymmetricSecurityKey(Encoding.UTF8.GetBytes("AcaVaLaKeySecreta"))
+                        new SymmetricSecurityKey(Encoding.UTF8.GetBytes("JWTsecretkey"))
                 };
             });
 
